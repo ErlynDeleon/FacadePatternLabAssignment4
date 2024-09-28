@@ -7,7 +7,7 @@ public class HotelApp {
         FrontDesk facade = new FrontDesk(valet, houseKeeping, cart);
 
         facade.requestValetService("ABC123");
-        facade.requestHouseKeepingService(505);
-        facade.requestCartService(2);
+        facade.requestHouseKeepingService(18);
+        facade.requestCartService(1);
     }
 }

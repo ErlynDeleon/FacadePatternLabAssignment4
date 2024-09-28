@@ -1,7 +1,7 @@
 public class Cart implements HotelService {
     @Override
     public void requestCart(int numberOfCarts) {
-        System.out.println(numberOfCarts + " luggage carts requested");
+        System.out.println(numberOfCarts + " luggage cart requested");
     }
     
     @Override
